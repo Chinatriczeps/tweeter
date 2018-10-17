@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+// Load tweetsform db
     function loadTweets() {
         $.get("/tweets", function (tweets) {
             $("#tweets").empty();
@@ -39,7 +40,7 @@ $(document).ready(function () {
     function showMessage(message) {
         alert(message);
     };
-
+    // 
     function timeSince(created) {
       //Calculate seconds between now and date created
       let seconds = Math.floor((Date.now() - created) / 1000);
@@ -87,11 +88,11 @@ $(document).ready(function () {
         let data = $('#createTweet').serialize();
         let tweetLength = $('#textInput').val().length;
         if (tweetLength === 0) {
-            showMessage("Please add text");
+            showMessage("Yo, man, you gotta write smth");
             return;
         };
         if (tweetLength > 140) {
-            showMessage("Exceeded word limit");
+            showMessage("No more than 140:)");
             return;
         } else {
             $('#counter').text("140")

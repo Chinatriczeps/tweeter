@@ -1,3 +1,4 @@
+// Implemented char counter which counts the number of characters and turns red if more than 140
 $(document).ready(function () {
     console.log("document ready!");
     $('.new-tweet textarea').on('input', function () {
