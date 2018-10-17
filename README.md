@@ -6,8 +6,8 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Final priduct
 
-!["Screenshot of tweets1"](https://github.com/Chinatriczeps/tweeter/blob/master/docs/screen1.png)
-!["Screenshot of tweets2"](https://github.com/Chinatriczeps/tweeter/blob/master/docs/screen2.png)
+!["Screenshot of tweets1"](https://github.com/Chinatriczeps/tweeter/blob/master/screens/screen1.png)
+!["Screenshot of tweets2"](https://github.com/Chinatriczeps/tweeter/blob/master/screens/screen2.png)
 
 
 ## Getting Started
